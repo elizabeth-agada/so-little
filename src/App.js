@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Homepage from './pages/HomePage';
 import SinglePostPage from './pages/SinglePostPage';
+import CascadePage from './pages/CascadePage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/post/:id" element={<SinglePostPage />} />
+            <Route path="/category/css" element={<CascadePage />} />
             {/* Add other routes here */}
           </Routes>
         </main>

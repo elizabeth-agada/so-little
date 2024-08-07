@@ -16,12 +16,54 @@ function Homepage() {
       image: 'path/to/image.jpg',
       link: '/post/2',
     },
+    {
+      title: 'Understanding CSS Flexbox',
+      excerpt: 'An in-depth guide to CSS Flexbox and how it can improve your layouts...',
+      image: 'path/to/image.jpg',
+      link: '/post/2',
+    },
     // Add more blog posts here
   ];
 
   return (
-    <main className="container mx-auto my-8">
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <main className="container mx-auto my-20 border-t">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 px-32">
+        {blogPosts.map((post, index) => (
+          <BlogPostCard
+            key={index}
+            title={post.title}
+            excerpt={post.excerpt}
+            image={post.image}
+            link={post.link}
+          />
+        ))}
+      </section>
+
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 px-32">
+        {blogPosts.map((post, index) => (
+          <BlogPostCard
+            key={index}
+            title={post.title}
+            excerpt={post.excerpt}
+            image={post.image}
+            link={post.link}
+          />
+        ))}
+      </section>
+
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 px-32">
+        {blogPosts.map((post, index) => (
+          <BlogPostCard
+            key={index}
+            title={post.title}
+            excerpt={post.excerpt}
+            image={post.image}
+            link={post.link}
+          />
+        ))}
+      </section>
+
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-8 px-32">
         {blogPosts.map((post, index) => (
           <BlogPostCard
             key={index}
