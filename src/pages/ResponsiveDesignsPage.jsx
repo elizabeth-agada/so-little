@@ -3,7 +3,7 @@ import React from 'react';
 
 function ResponsiveDesignsPage() {
   return (
-    <main className="container mx-auto my-20 px-32">
+    <main className="container mx-auto my-20 px-32 font-sans">
       <h1 className="text-4xl font-bold mb-8">Responsive Designs</h1>
       <img src="/img/responsive.jpg" alt="Responsive Designs" className="w-full mb-8" />
       <p className="text-lg mb-4">

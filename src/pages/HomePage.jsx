@@ -25,19 +25,19 @@ function Homepage() {
     {
       title: 'Understanding CSS Flexbox',
       excerpt: 'An in-depth guide to CSS Flexbox and how it can improve your layouts...',
-      image: 'path/to/flexbox.jpg',
+      image: './img/flexbox.jpg',
       link: '/post/4',
     },
     {
       title: 'Mastering JavaScript Promises',
       excerpt: 'Deep dive into JavaScript promises and how to use them effectively...',
-      image: 'path/to/javascript-promises.jpg',
+      image: './img/javascript.jpg',
       link: '/post/5',
     },
     {
       title: 'Learning React Basics',
       excerpt: 'Everything you need to know to start building React applications...',
-      image: 'path/to/react-basics.jpg',
+      image: './img/reactjs.jpg',
       link: '/post/6',
     },
     // Add more blog posts here
@@ -62,10 +62,10 @@ function Homepage() {
   const totalPages = Math.ceil(blogPosts.length / postsPerPage);
 
   return (
-    <main className="container mx-auto my-20">
+    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
       <section className="border-b pb-8">
-        <h2 className="text-3xl font-bold mb-12 px-32">Featured Resources</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-32">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12">Featured Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {featuredPosts.map((post, index) => (
             <BlogPostCard
               key={index}
@@ -78,9 +78,9 @@ function Homepage() {
         </div>
       </section>
 
-      <section className="mt-16 space-y-8">
-        <h2 className="text-3xl font-bold px-32 mb-12">All Resources</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-32">
+      <section className="mt-12 md:mt-16">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12">All Resources</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {currentPosts.map((post, index) => (
             <BlogPostCard
               key={index}
@@ -101,7 +101,7 @@ function Homepage() {
               <li key={index} className="mx-1">
                 <button
                   onClick={() => paginate(index + 1)}
-                  className={`px-4 py-2 rounded ${currentPage === index + 1 ? 'bg-blue-700 text-white' : 'bg-gray-200'}`}
+                  className={`px-3 py-1 rounded ${currentPage === index + 1 ? 'bg-blue-700 text-white' : 'bg-gray-200'}`}
                 >
                   {index + 1}
                 </button>
