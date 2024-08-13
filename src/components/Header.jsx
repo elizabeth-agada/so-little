@@ -91,8 +91,8 @@ const Header = () => {
               <ul className="flex items-center gap-1 flex-wrap">
                 <li><Link to="/category/css" className="hover:bg-slate-500 bg-black p-2">CSS</Link></li>
                 <li><Link to="/category/grid" className="hover:bg-slate-500 bg-black p-2">Grid</Link></li>
-                <li><Link to="/category/flex-box" className="hover:bg-slate-500 bg-black p-2">Flex box</Link></li>
-                <li><Link to="/category/designer-news" className="hover:bg-slate-500 bg-black p-2">Designer</Link></li>
+                <li><Link to="/category/flexbox" className="hover:bg-slate-500 bg-black p-2">Flex box</Link></li>
+                <li><Link to="/category/design" className="hover:bg-slate-500 bg-black p-2">Design</Link></li>
                 {/* Add more categories */}
               </ul>
             </div>

@@ -8,6 +8,9 @@ import CascadePage from './pages/CascadePage';
 import GettingStartedInTech from './pages/GettingStartedInTech';
 import BeginnerWebsiteDevelopment from './pages/BeginnerWebsiteDevelopment';
 import ResponsiveDesignsPage from './pages/ResponsiveDesignsPage';
+import GridSystemPage from './pages/GridSystemPage';
+import FlexboxPage from './pages/FlexboxPage';
+import DesignPage from './pages/DesignPage';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
             <Route path="/post/1" element={<GettingStartedInTech />} />
             <Route path="/post/2" element={<BeginnerWebsiteDevelopment />} />
             <Route path="/post/3" element={<ResponsiveDesignsPage />} />
+            <Route path="/category/grid" element={<GridSystemPage />} />
+            <Route path="/category/flexbox" element={<FlexboxPage />} />
+            <Route path="/category/design" element={<DesignPage />} />
             {/* Add other routes here */}
           </Routes>
         </main>
