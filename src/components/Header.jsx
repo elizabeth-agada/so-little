@@ -71,8 +71,8 @@ const Header = () => {
               <div className="pl-4 space-y-2">
                 <Link to="/category/css" className="block hover:underline">CSS</Link>
                 <Link to="/category/grid" className="block hover:underline">Grid</Link>
-                <Link to="/category/flex-box" className="block hover:underline">Flex box</Link>
-                <Link to="/category/designer-news" className="block hover:underline">Designer</Link>
+                <Link to="/category/flexbox" className="block hover:underline">Flex box</Link>
+                <Link to="/category/design" className="block hover:underline">Design</Link>
                 {/* Add more categories */}
               </div>
             )}
