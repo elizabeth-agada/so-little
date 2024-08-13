@@ -40,6 +40,12 @@ function Homepage() {
       image: './img/reactjs.jpg',
       link: '/post/6',
     },
+    {
+      title: 'How to Design Beautiful Interfaces',
+      excerpt: 'Everything you need to know to start building beautiful interfaces...',
+      image: './img/ui.jpg',
+      link: '/post/7',
+    },
     // Add more blog posts here
   ];
 

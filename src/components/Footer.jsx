@@ -48,7 +48,7 @@ function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-6 pt-4 text-center">
           <p className="text-gray-500">
-            &copy; {new Date().getFullYear()} Notsolittle. All rights reserved. | Designed by <a href="https://liz-me.vercel.app" className="text-blue-400 hover:underline">An Amazing Human</a>
+            &copy; {new Date().getFullYear()} solittle. All rights reserved. | Designed by <a href="https://liz-me.vercel.app" className="text-blue-400 hover:underline">An Amazing Human</a>
           </p>
         </div>
       </div>
