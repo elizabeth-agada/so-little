@@ -6,21 +6,43 @@ function FlexboxPage() {
       <section className="mb-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-8">Understanding Flexbox</h1>
         <p className="text-base md:text-lg mb-6">
-          Flexbox (Flexible Box Layout) is a powerful CSS layout module designed to lay out elements in a one-dimensional 
-          space, either horizontally or vertically. It helps create responsive layouts with more control over alignment 
-          and spacing than traditional methods.
+          Flexbox (Flexible Box Layout) is a modern CSS layout module designed to arrange elements in a one-dimensional 
+          space. It simplifies the process of creating flexible and responsive layouts by providing more control over 
+          alignment and distribution of space.
         </p>
         <p className="text-base md:text-lg mb-6">
-          Key concepts of Flexbox include:
+          Here’s a breakdown of key Flexbox concepts:
         </p>
         <ul className="list-disc list-inside pl-4 text-base md:text-lg">
-          <li><strong>Flex Container:</strong> The parent element that holds flex items and defines the flex context.</li>
-          <li><strong>Flex Items:</strong> The children of the flex container that will be laid out according to flex properties.</li>
-          <li><strong>Flex Direction:</strong> Defines the direction in which flex items are placed in the flex container (e.g., row, column).</li>
+          <li><strong>Flex Container:</strong> The parent element that defines the flex context for its children.</li>
+          <li><strong>Flex Items:</strong> The children of the flex container, which are laid out according to flex properties.</li>
+          <li><strong>Flex Direction:</strong> Specifies the direction of flex items (e.g., row, column).</li>
           <li><strong>Justify Content:</strong> Aligns flex items along the main axis (e.g., center, space-between).</li>
           <li><strong>Align Items:</strong> Aligns flex items along the cross axis (e.g., stretch, center).</li>
-          <li><strong>Align Self:</strong> Allows the individual flex item to override the container’s alignment.</li>
+          <li><strong>Align Self:</strong> Allows individual flex items to override the container’s alignment.</li>
         </ul>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8">Example Flexbox Layouts</h2>
+
+        {/* Basic Flexbox Example */}
+        <div className="flex flex-wrap gap-4 mb-8">
+          <div className="flex-1 bg-blue-200 p-4 text-center">Flex Item 1</div>
+          <div className="flex-1 bg-blue-300 p-4 text-center">Flex Item 2</div>
+          <div className="flex-1 bg-blue-400 p-4 text-center">Flex Item 3</div>
+          <div className="flex-1 bg-blue-500 p-4 text-center">Flex Item 4</div>
+        </div>
+
+        {/* Responsive Flexbox Example */}
+        <div className="flex flex-wrap gap-4">
+          <div className="flex-1 sm:flex-none sm:w-1/2 md:w-1/3 lg:w-1/4 bg-green-200 p-4 text-center">Flex Item 1</div>
+          <div className="flex-1 sm:flex-none sm:w-1/2 md:w-1/3 lg:w-1/4 bg-green-300 p-4 text-center">Flex Item 2</div>
+          <div className="flex-1 sm:flex-none sm:w-1/2 md:w-1/3 lg:w-1/4 bg-green-400 p-4 text-center">Flex Item 3</div>
+          <div className="flex-1 sm:flex-none sm:w-1/2 md:w-1/3 lg:w-1/4 bg-green-500 p-4 text-center">Flex Item 4</div>
+          <div className="flex-1 sm:flex-none sm:w-1/2 md:w-1/3 lg:w-1/4 bg-green-600 p-4 text-center">Flex Item 5</div>
+          <div className="flex-1 sm:flex-none sm:w-1/2 md:w-1/3 lg:w-1/4 bg-green-700 p-4 text-center">Flex Item 6</div>
+        </div>
       </section>
 
       <section>
@@ -47,7 +69,6 @@ function FlexboxPage() {
             <p className="text-base mb-4">A complete guide to Flexbox, including visual examples and code snippets.</p>
             <a href="https://www.smashingmagazine.com/2018/03/guide-flexbox-css/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Read Article</a>
           </div>
-          {/* Add more resources here */}
         </div>
       </section>
     </main>
