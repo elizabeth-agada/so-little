@@ -2,9 +2,9 @@ import React from 'react';
 
 function FlexboxPage() {
   return (
-    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
+    <main className="container bg-gray-50 text-black mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
       <section className="mb-12">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">Understanding Flexbox</h1>
+        <h1 className="text-3xl font-bold mb-4">Understanding Flexbox</h1>
         <p className="text-base md:text-lg mb-6">
           Flexbox (Flexible Box Layout) is a modern CSS layout module designed to arrange elements in a one-dimensional 
           space. It simplifies the process of creating flexible and responsive layouts by providing more control over 

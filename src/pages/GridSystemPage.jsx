@@ -2,9 +2,9 @@ import React from 'react';
 
 function GridSystemPage() {
   return (
-    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
+    <main className="container bg-gray-50 text-black mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
       <section className="mb-12">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">Understanding the Grid System</h1>
+        <h1 className="text-3xl font-bold mb-4">Understanding the Grid System</h1>
         <p className="text-base md:text-lg mb-6">
           The grid system is a powerful layout tool used in web design to create responsive and organized layouts.
           It divides the page into rows and columns, allowing for flexible and consistent placement of content.

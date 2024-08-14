@@ -2,7 +2,7 @@ import React from 'react';
 
 const CascadePage = () => {
   return (
-    <div className="p-6 bg-gray-50 text-black font-sans">
+    <div className="bg-gray-50 text-black my-10 font-sans">
       <h1 className="text-3xl font-bold mb-4 px-4 md:px-32">CSS (Cascading Style Sheets)</h1>
       <p className="mb-4 px-4 md:px-32 text-lg leading-relaxed">
         CSS stands for Cascading Style Sheets. It is a stylesheet language used for describing the presentation of a document written in HTML or XML. CSS defines how elements should be rendered on screen, on paper, in speech, or on other media.
