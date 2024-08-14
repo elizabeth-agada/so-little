@@ -21,6 +21,28 @@ function GridSystemPage() {
         </ul>
       </section>
 
+      <section className="mb-12">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8">Example Grid Layouts</h2>
+
+        {/* Basic Grid Example */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
+          <div className="bg-blue-200 p-4 text-center">Column 1</div>
+          <div className="bg-blue-300 p-4 text-center">Column 2</div>
+          <div className="bg-blue-400 p-4 text-center">Column 3</div>
+          <div className="bg-blue-500 p-4 text-center">Column 4</div>
+        </div>
+
+        {/* Responsive Grid Example */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+          <div className="bg-green-200 p-4 text-center">Col 1 (2 on mobile)</div>
+          <div className="bg-green-300 p-4 text-center">Col 2 (2 on mobile)</div>
+          <div className="bg-green-400 p-4 text-center">Col 3 (3 on tablet)</div>
+          <div className="bg-green-500 p-4 text-center">Col 4 (4 on desktop)</div>
+          <div className="bg-green-600 p-4 text-center">Col 5 (4 on desktop)</div>
+          <div className="bg-green-700 p-4 text-center">Col 6 (4 on desktop)</div>
+        </div>
+      </section>
+
       <section>
         <h2 className="text-2xl md:text-3xl font-bold mb-8">Recommended Resources</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -45,7 +67,6 @@ function GridSystemPage() {
             <p className="text-base mb-4">Learn how to create responsive layouts using grid systems and media queries.</p>
             <a href="https://www.w3schools.com/css/css_rwd_grid.asp" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Learn More</a>
           </div>
-          {/* Add more resources here */}
         </div>
       </section>
     </main>
