@@ -3,7 +3,7 @@ import React from 'react';
 function GettingStartedInTech() {
   return (
     <main className="container text-black mx-auto my-10 px-4 sm:px-6 lg:px-8 max-w-7xl font-sans">
-      <h1 className="text-3xl font-bold mb-4 px-4 md:px-32">Getting Started in Tech</h1>
+      <h1 className="text-3xl font-bold mb-4">Getting Started in Tech</h1>
       <img src="/img/technology.jpg" alt="Getting Started in Tech" className="w-full h-auto max-h-[400px] object-cover rounded-lg shadow-lg" />
       
       <section className="space-y-4 sm:space-y-6 mt-5">

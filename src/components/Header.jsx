@@ -19,6 +19,11 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleMenuItemClick = () => {
+    setIsOpen(false);
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="text-white font-sans">
       <div className="px-6 md:px-32 items-center p-6 bg-blue-700 flex justify-between">
@@ -69,11 +74,10 @@ const Header = () => {
             </button>
             {isOpen && (
               <div className="pl-4 space-y-2">
-                <Link to="/category/css" className="block hover:underline">CSS</Link>
-                <Link to="/category/grid" className="block hover:underline">Grid</Link>
-                <Link to="/category/flexbox" className="block hover:underline">Flex box</Link>
-                <Link to="/category/design" className="block hover:underline">Design</Link>
-                {/* Add more categories */}
+                <Link to="/category/css" className="block hover:underline" onClick={handleMenuItemClick}>CSS</Link>
+                <Link to="/category/grid" className="block hover:underline" onClick={handleMenuItemClick}>Grid</Link>
+                <Link to="/category/flexbox" className="block hover:underline" onClick={handleMenuItemClick}>Flex box</Link>
+                <Link to="/category/design" className="block hover:underline" onClick={handleMenuItemClick}>Design</Link>
               </div>
             )}
           </nav>
@@ -89,29 +93,26 @@ const Header = () => {
             <div className="col-span-4 space-y-5">
               <h3 className="font-bold mb-2">Content by Category</h3>
               <ul className="flex items-center gap-1 flex-wrap">
-                <li><Link to="/category/css" className="hover:bg-slate-500 bg-black p-2">CSS</Link></li>
-                <li><Link to="/category/grid" className="hover:bg-slate-500 bg-black p-2">Grid</Link></li>
-                <li><Link to="/category/flexbox" className="hover:bg-slate-500 bg-black p-2">Flex box</Link></li>
-                <li><Link to="/category/design" className="hover:bg-slate-500 bg-black p-2">Design</Link></li>
-                {/* Add more categories */}
+                <li><Link to="/category/css" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>CSS</Link></li>
+                <li><Link to="/category/grid" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>Grid</Link></li>
+                <li><Link to="/category/flexbox" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>Flex box</Link></li>
+                <li><Link to="/category/design" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>Design</Link></li>
               </ul>
             </div>
             <div className="col-span-4 space-y-5">
               <h3 className="font-bold mb-2">Resources by Application</h3>
               <ul className="flex items-center gap-1 flex-wrap">
-                <li><Link to="/resources/after-effects" className="hover:bg-slate-500 bg-black p-2">After Effects Templates</Link></li>
-                <li><Link to="/resources/bootstrap" className="hover:bg-slate-500 bg-black p-2">Bootstrap Templates</Link></li>
-                {/* Add more resources */}
+                <li><Link to="/resources/after-effects" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>After Effects Templates</Link></li>
+                <li><Link to="/resources/bootstrap" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>Bootstrap Templates</Link></li>
               </ul>
             </div>
             <div className="col-span-4 space-y-5">
               <h3 className="font-bold mb-2">Others</h3>
               <ul className="flex items-center gap-1 flex-wrap">
-                <li><Link to="/others/after-effects" className="hover:bg-slate-500 bg-black p-2">Web3</Link></li>
-                <li><Link to="/others/bootstrap" className="hover:bg-slate-500 bg-black p-2">Faces for Techies</Link></li>
-                <li><Link to="/others/bootstrap" className="hover:bg-slate-500 bg-black p-2">Fintech</Link></li>
-                <li><Link to="/others/bootstrap" className="hover:bg-slate-500 bg-black p-2">Community</Link></li>
-                {/* Add more resources */}
+                <li><Link to="/others/after-effects" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Web3</Link></li>
+                <li><Link to="/others/bootstrap" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Faces for Techies</Link></li>
+                <li><Link to="/others/bootstrap" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Fintech</Link></li>
+                <li><Link to="/others/bootstrap" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Community</Link></li>
               </ul>
             </div>
           </div>
