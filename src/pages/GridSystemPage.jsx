@@ -2,7 +2,7 @@ import React from 'react';
 
 function GridSystemPage() {
   return (
-    <main className="container bg-gray-50 text-black mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
+    <main className="container text-black mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
       <section className="mb-12">
         <h1 className="text-3xl font-bold mb-4">Understanding the Grid System</h1>
         <p className="text-base md:text-lg mb-6">

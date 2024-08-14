@@ -2,7 +2,7 @@ import React from 'react';
 
 function DesignPage() {
   return (
-    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans bg-gray-50 text-black">
+    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans text-black">
       <section className="mb-12">
         <h1 className="text-3xl font-bold mb-4">Design Principles</h1>
         <p className="text-base md:text-lg mb-6 leading-relaxed">

@@ -11,6 +11,7 @@ import ResponsiveDesignsPage from './pages/ResponsiveDesignsPage';
 import GridSystemPage from './pages/GridSystemPage';
 import FlexboxPage from './pages/FlexboxPage';
 import DesignPage from './pages/DesignPage';
+import AfterEffectsTemplates from './pages/AfterEffectsTemplates';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/category/grid" element={<GridSystemPage />} />
             <Route path="/category/flexbox" element={<FlexboxPage />} />
             <Route path="/category/design" element={<DesignPage />} />
+            <Route path="/resources/after-effects" element={<AfterEffectsTemplates />} />
             {/* Add other routes here */}
           </Routes>
         </main>

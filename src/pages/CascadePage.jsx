@@ -2,8 +2,8 @@ import React from 'react';
 
 const CascadePage = () => {
   return (
-    <div className="bg-gray-50 text-black my-10 font-sans">
-      <h1 className="text-3xl font-bold mb-4 px-4 md:px-32">CSS (Cascading Style Sheets)</h1>
+    <div className="bg-gray-100 text-black font-sans">
+      <h1 className="text-3xl font-bold mb-4 px-4 md:px-32 p-10">CSS (Cascading Style Sheets)</h1>
       <p className="mb-4 px-4 md:px-32 text-lg leading-relaxed">
         CSS stands for Cascading Style Sheets. It is a stylesheet language used for describing the presentation of a document written in HTML or XML. CSS defines how elements should be rendered on screen, on paper, in speech, or on other media.
       </p>
@@ -29,7 +29,7 @@ const CascadePage = () => {
       </ul>
       
       <h2 className="text-2xl font-semibold mb-3 px-4 md:px-32 text-blue-600">CSS Code Example</h2>
-      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto px-4 md:px-32">
+      <pre className="bg-gray-200 p-4 rounded-lg overflow-auto px-4 md:px-32 lg:px-32">
         <code className="text-sm">
           {`
           /* Example of CSS for a simple button */
@@ -56,7 +56,8 @@ const CascadePage = () => {
         </code>
       </pre>
       
-      <h2 className="text-2xl font-semibold mb-3 px-4 md:px-32 text-blue-600">CSS Tutorials</h2>
+      <h2 className="text-2xl font-semibold py-4 px-4 md:px-32 text-blue-600">CSS Tutorials</h2>
+      <div className="p-5">
       <ul className="list-disc ml-10 px-4 md:px-32 space-y-2">
         <li>
           <a href="https://www.w3schools.com/css/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
@@ -79,6 +80,7 @@ const CascadePage = () => {
           </a>
         </li>
       </ul>
+      </div>
     </div>
   );
 };
