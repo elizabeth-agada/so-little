@@ -12,6 +12,9 @@ import GridSystemPage from './pages/GridSystemPage';
 import FlexboxPage from './pages/FlexboxPage';
 import DesignPage from './pages/DesignPage';
 import AfterEffectsTemplates from './pages/AfterEffectsTemplates';
+import BootstrapPage from './pages/BootstrapPage';
+import Web3Page from './pages/Web3Page';
+import FacesOfTechiesPage from './pages/FacesOfTechiesPage';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
             <Route path="/category/flexbox" element={<FlexboxPage />} />
             <Route path="/category/design" element={<DesignPage />} />
             <Route path="/resources/after-effects" element={<AfterEffectsTemplates />} />
+            <Route path="/resources/bootstrap-page" element={<BootstrapPage />} />
+            <Route path="/others/web3-page" element={<Web3Page />} />
+            <Route path="/others/faces-of-techies" element={<FacesOfTechiesPage/>} />
             {/* Add other routes here */}
           </Routes>
         </main>

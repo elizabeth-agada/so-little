@@ -103,16 +103,16 @@ const Header = () => {
               <h3 className="font-bold mb-2">Resources by Application</h3>
               <ul className="flex items-center gap-1 flex-wrap">
                 <li><Link to="/resources/after-effects" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>After Effects Templates</Link></li>
-                <li><Link to="/resources/bootstrap" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>Bootstrap Templates</Link></li>
+                <li><Link to="/resources/bootstrap-page" className="block hover:bg-slate-500 bg-black p-2" onClick={handleMenuItemClick}>Bootstrap Templates</Link></li>
               </ul>
             </div>
             <div className="col-span-4 space-y-5">
               <h3 className="font-bold mb-2">Others</h3>
               <ul className="flex items-center gap-1 flex-wrap">
-                <li><Link to="/others/after-effects" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Web3</Link></li>
-                <li><Link to="/others/bootstrap" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Faces for Techies</Link></li>
-                <li><Link to="/others/bootstrap" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Fintech</Link></li>
-                <li><Link to="/others/bootstrap" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Community</Link></li>
+                <li><Link to="/others/web3-page" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Web3</Link></li>
+                <li><Link to="/others/faces-of-techies" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Faces for Techies</Link></li>
+                <li><Link to="/others/fintech" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Fintech</Link></li>
+                <li><Link to="/others/community" className="block hover:bg-slate-500  bg-black p-2" onClick={handleMenuItemClick}>Community</Link></li>
               </ul>
             </div>
           </div>
