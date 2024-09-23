@@ -5,29 +5,33 @@ function TopTechiesPage() {
     {
       name: 'Elon Musk',
       profile: 'CEO of SpaceX and Tesla, Elon Musk is a visionary entrepreneur known for his work in advancing space exploration, electric vehicles, and sustainable energy.',
-      image: 'elon_musk.jpg', // Placeholder image filename
+      image: '.img/elon.jpg',
     },
     {
       name: 'Sundar Pichai',
       profile: 'CEO of Alphabet Inc. and Google, Sundar Pichai has played a key role in shaping the future of technology through Google’s innovative products and services.',
-      image: 'sundar_pichai.jpg', // Placeholder image filename
+      image: 'sundar_pichai.jpg',
     },
     {
       name: 'Satya Nadella',
       profile: 'CEO of Microsoft, Satya Nadella has been instrumental in transforming Microsoft into a leader in cloud computing, AI, and enterprise solutions.',
-      image: 'satya_nadella.jpg', // Placeholder image filename
+      image: 'satya_nadella.jpg',
     },
     {
       name: 'Sheryl Sandberg',
       profile: 'Former COO of Facebook, Sheryl Sandberg is known for her work in building one of the world’s most influential social media platforms and advocating for women in tech.',
-      image: 'sheryl_sandberg.jpg', // Placeholder image filename
+      image: 'sheryl_sandberg.jpg',
     },
     {
       name: 'Jack Dorsey',
       profile: 'Co-founder and former CEO of Twitter, Jack Dorsey has been a key figure in the evolution of social media and digital payments through Square.',
-      image: 'jack_dorsey.jpg', // Placeholder image filename
+      image: 'jack_dorsey.jpg', 
     },
-    // Add more techies as needed
+    {
+      name: 'Sim Shagaya',
+      profile: 'Founder of Konga and uLesson, Sim Shagaya is a Nigerian entrepreneur focused on revolutionizing e-commerce and education in Africa. His work in building Konga helped redefine the online shopping experience, while uLesson aims to make quality education accessible through technology.',
+      image: 'sim_shagaya.jpg',
+    },
   ];
 
   return (

@@ -46,7 +46,7 @@ function Homepage() {
       image: './img/ui.jpg',
       link: '/post/7',
     },
-    // Add more blog posts here
+
   ];
 
   // State for pagination
