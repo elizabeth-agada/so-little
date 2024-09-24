@@ -15,6 +15,8 @@ import AfterEffectsTemplates from './pages/AfterEffectsTemplates';
 import BootstrapPage from './pages/BootstrapPage';
 import Web3Page from './pages/Web3Page';
 import FacesOfTechiesPage from './pages/FacesOfTechiesPage';
+import FintechPage from './pages/FintechPage';
+import CommunityPage from './pages/CommunityPage';
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
             <Route path="/resources/bootstrap-page" element={<BootstrapPage />} />
             <Route path="/others/web3-page" element={<Web3Page />} />
             <Route path="/others/faces-of-techies" element={<FacesOfTechiesPage/>} />
+            <Route path="/others/fintech" element={<FintechPage/>} />
+            <Route path="/others/community" element={<CommunityPage/>} />
             {/* Add other routes here */}
           </Routes>
         </main>

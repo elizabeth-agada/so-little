@@ -2,7 +2,7 @@ import React from "react";
 
 function AfterEffectsPage() {
   return (
-    <div className="bg-gray-100 text-gray-800 min-h-screen">
+    <div className="bg-gray-100 text-gray-800 min-h-screen sans">
       <div className="container mx-auto p-5 md:px-32">
         <h1 className="text-4xl font-bold mb-10">After Effects Templates & Resources</h1>
         <p className="text-lg md:text-center mb-10">

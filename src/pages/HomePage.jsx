@@ -68,7 +68,7 @@ function Homepage() {
   const totalPages = Math.ceil(blogPosts.length / postsPerPage);
 
   return (
-    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
+    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 sans">
       <section className="border-b pb-8">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12">Featured Resources</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
