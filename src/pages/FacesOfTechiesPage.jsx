@@ -3,16 +3,16 @@ import TopTechiesPage from './TopTechiesPage';
 
 function FacesOfTechiesPage() {
   return (
-    <main className="container mx-auto my-10 px-4 md:px-8 lg:px-28 font-sans">
-      <section className="mb-12">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">Faces of Techies</h1>
-        <p className="text-base md:text-lg mb-6">
+    <main className="container mx-auto my-5 md:my-10 px-4 md:px-8 lg:px-28 font-sans">
+      <section className="mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">Faces of Techies</h1>
+        <p className="text-base md:text-lg">
           The tech industry is diverse and ever-evolving, with a variety of roles and expertise that contribute to building innovative solutions. Whether you're a developer, designer, data scientist, or product manager, each role plays a crucial part in shaping the future of technology.
         </p>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Developers</h2>
+      <section className="">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Developers</h2>
         <p className="text-base md:text-lg mb-6">
           Developers are the backbone of the tech industry. They write the code that powers websites, mobile apps, and software. Developers can specialize in different areas, such as front-end development, back-end development, or full-stack development.
         </p>
@@ -23,8 +23,8 @@ function FacesOfTechiesPage() {
         </ul>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Designers</h2>
+      <section className="">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Designers</h2>
         <p className="text-base md:text-lg mb-6">
           Designers bring creativity and user-focused solutions to the tech industry. They work on crafting visually appealing and functional interfaces that users interact with. Designers can specialize in UI (User Interface) or UX (User Experience) design.
         </p>
@@ -35,8 +35,8 @@ function FacesOfTechiesPage() {
         </ul>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Product Managers</h2>
+      <section className="">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Product Managers</h2>
         <p className="text-base md:text-lg mb-6">
           Product Managers are the strategists behind a tech product. They define the product's vision, align teams, and ensure that the product meets user needs and business objectives. They work closely with developers, designers, and stakeholders to bring products to life.
         </p>
@@ -47,8 +47,8 @@ function FacesOfTechiesPage() {
         </ul>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Data Scientists</h2>
+      <section className="">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Data Scientists</h2>
         <p className="text-base md:text-lg mb-6">
           Data Scientists analyze and interpret complex data to help organizations make informed decisions. They work with large datasets, applying statistical methods and machine learning algorithms to uncover insights and drive innovation.
         </p>
@@ -59,15 +59,15 @@ function FacesOfTechiesPage() {
         </ul>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Other Roles in Tech</h2>
+      <section className="">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Other Roles in Tech</h2>
         <p className="text-base md:text-lg mb-6">
           The tech industry is vast, with many other roles contributing to its growth and success. These include roles like DevOps Engineers, System Administrators, Technical Writers, Cybersecurity Experts, and many more. Each role plays a unique part in building and maintaining the technology we use every day.
         </p>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">Diverse Backgrounds</h2>
+      <section className="">
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">Diverse Backgrounds</h2>
         <p className="text-base md:text-lg mb-6">
           Techies come from all walks of life. Some have formal education in computer science, while others are self-taught. The industry values skills, creativity, and problem-solving abilities over traditional qualifications, making it accessible to people from diverse backgrounds.
         </p>
